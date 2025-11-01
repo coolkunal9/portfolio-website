@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal | Portfolio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ===== Navbar ===== -->
+    <header class="navbar">
+      <div class="logo">&lt;Kunal /&gt;</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-image" data-aos="fade-right" data-aos-duration="1200">
+          <img src="image/kunal_prasad.jpg" alt="Kunal Prasad" />
+        </div>
+
+        <div
+          class="hero-text"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <h2>Hi, I'm <span>Kunal Prasad</span></h2>
+          <h3><span class="typing"></span></h3>
+          <p>
+            I’m a Frontend Developer who builds responsive, interactive, and
+            clean web experiences using
+            <strong>HTML, CSS, and JavaScript</strong>.
+          </p>
+        </div>
+
+        <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="500">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="resume..pdf" download class="btn secondary"
+            >Download Resume</a
+          >
+          <a href="#contact" class="btn tertiary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about" class="about" data-aos="fade-right">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate 4th-year Engineering student specializing in frontend
+        development. I build modern, responsive, and user-focused web
+        applications using React, Tailwind CSS, and JavaScript. I’m also
+        developing strong skills in Python, Java, and the MERN stack, with
+        hands-on exposure to Laravel and responsive design.
+      </p>
+      <div class="skills">
+        <img src="image/html.png" alt="HTML" />
+        <img src="image/css.png" alt="CSS" />
+        <img src="image/js.png" alt="JS" />
+        <img src="image/git.png" alt="JS" />
+        <img src="image/github.png" alt="JS" />
+        <img src="image/react.png" alt="JS" />
+      </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects" class="projects" data-aos="fade-left">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <!-- React Counter App -->
+        <div class="project-card" data-aos="zoom-in">
+          <img src="image/react-app.png" alt="React Counter App" />
+          <h3>React Counter App</h3>
+          <p>
+            Built a lightweight and responsive counter application using
+            React.js, leveraging Chakra UI for modern and aesthetic UI
+            components. It uses React Hooks and localStorage for persistent
+            state and Vite for optimized build speeds.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/coolkunal9/simple-react-web-app"
+              target="_blank"
+              class="btn"
+              >View Code</a
+            >
+          </div>
+        </div>
+
+        <!-- Weather App -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="image/weather-app.png" alt="Weather App" />
+          <h3>Weather App</h3>
+          <p>
+            A simple, real-time weather web app built using JavaScript and
+            OpenWeather API. Designed with a clean UI for quick and accurate
+            city-based weather updates.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/coolkunal9/weather-app"
+              target="_blank"
+              class="btn"
+              >View Code</a
+            >
+          </div>
+        </div>
+
+        <!-- Link in Bio Project -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+          <img src="image/portfolio.png" alt="All Links in Bio" />
+          <h3>All Links in Bio</h3>
+          <p>
+            A personal “link in bio” website showcasing professional links like
+            GitHub, LinkedIn, and email in a minimal, mobile-first design. Built
+            with HTML, CSS, and JavaScript, this project highlights clean layout
+            and responsive styling.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/coolkunal9/all-link-in-bio"
+              target="_blank"
+              class="btn"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Certificates Section ===== -->
+
+    <section id="certificates" class="certificates" data-aos="fade-up">
+      <h2>Certificates & Achievements</h2>
+
+      <div class="certificate-container">
+        <!-- IBM AI Certificate -->
+        <div class="certificate-card">
+          <img
+            src="assests/IBMDesign20251101-32-m5e5zp.pdf"
+            alt="IBM AI Certificate"
+          />
+          <h3>Getting Started with Artificial Intelligence</h3>
+          <p>Issued by <strong>IBM SkillsBuild</strong> — August 2025</p>
+          <a
+            href="assests/IBMDesign20251101-32-m5e5zp.pdf"
+            target="_blank"
+            class="btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <!-- IBM Design Thinking -->
+        <div class="certificate-card">
+          <img
+            src="assests/IBMDesign20251101-32-axuoi5.pdf"
+            alt="IBM Cloud Design Thinking"
+          />
+          <h3>IBM Enterprise Design Thinking Practitioner</h3>
+          <p>Issued by <strong>IBM SkillsBuild</strong> — August 2025</p>
+          <a
+            href="assests/IBMDesign20251101-32-axuoi5.pdf"
+            target="_blank"
+            class="btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <!-- Deloitte Job Simulation -->
+        <div class="certificate-card">
+          <img src="assests/Deloitte.pdf" alt="Deloitte Job Simulation" />
+          <h3>Deloitte Technology Job Simulation</h3>
+          <p>Issued by <strong>Deloitte</strong> via Forage — November 2025</p>
+          <a href="assests/Deloitte.pdf" target="_blank" class="btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <!-- AI & Cloud Internship -->
+        <div class="certificate-card">
+          <img src="assests/AI & Cloud.pdf" alt= 4-week Internship, leveraging
+          SkillsBuild & IBM Cloud Platform in Emerging Technologies (AI &
+          Cloud)" />
+          <h3>
+            4-week Internship, leveraging SkillsBuild & IBM Cloud Platform in
+            Emerging Technologies (AI & Cloud)
+          </h3>
+          <p>
+            Conducted by <strong>AICTE x Edunet Foundation</strong> — September
+            2025
+          </p>
+          <a href="assests/AI & Cloud.pdf" target="_blank" class="btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <!-- Upflairs Full Stack Training -->
+        <div class="certificate-card">
+          <img
+            src="assests/Kunal_Prasad.pdf"
+            alt="Upflairs Full Stack Training"
+          />
+          <h3>Full Stack Web Development Internship</h3>
+          <p>Completed at <strong>Upflairs Pvt. Ltd.</strong> — August 2024</p>
+          <a href="assests/Kunal_Prasad.pdf" target="_blank" class="btn"
+            >View Certificate</a
+          >
+        </div>
+
+        <!-- Full Stack Programming Course -->
+        <div class="certificate-card">
+          <img
+            src="assests/full Stack programming course.pdf"
+            alt="Full Stack Programming Course"
+          />
+          <h3>HTML, CSS, Java & JavaScript: Full Stack Course</h3>
+          <p>Issued by <strong>Udemy</strong> — November 2025</p>
+          <a
+            href="assests/full Stack programming course.pdf"
+            target="_blank"
+            class="btn"
+            >View Certificate</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <p>
+        Feel free to get in touch. I’m open to collaboration or freelance
+        opportunities!
+      </p>
+
+      <form id="contact-form" method="POST" class="contact-form">
+        <div class="input-group">
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn primary glow">Send Message</button>
+      </form>
+
+      <p id="status-message" style="margin-top: 12px"></p>
+
+      <div class="social-links">
+        <a href="mailto:1111.kunalprasad@gmail.com" title="Email"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="https://github.com/coolkunal9" target="_blank" title="GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/kunal-prasad-7676392bb"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </section>
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <p>© 2025 Kunal | All Rights Reserved</p>
+    </footer>
+
+    <!-- ===== Scripts ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
